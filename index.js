@@ -28,14 +28,13 @@ function nowServing(lineArray){
   return `Currently serving ${firstInLine}.`
 }
 
+let lineString = 'The line is currently: ';
 
 function currentLine(lineArray){
    if (!lineArray.length){
     return 'The line is currently empty.';
   }
-  
-  let lineString = 'The line is currently: ';
-  
+
   for (let i = 0; i < lineArray.length - 1 ; i++){
     let placeInLine = i + 1;
     let curName = lineArray[i];
