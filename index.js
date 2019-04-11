@@ -36,6 +36,8 @@ function nowServing(lineArray){
   
   let firstInLine = lineArray[0];
   lineArray.shift();
+  
+  console.log(`Currently serving ${firstInLine}.`)
   return `Currently serving ${firstInLine}.`
 }
 
