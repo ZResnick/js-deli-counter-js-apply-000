@@ -6,7 +6,7 @@ var katzDeliLine = [];
 //the question wants me to return the welcome message, and also add the person to the end of the line.
 
 function takeANumber(lineArray) {
-  let lastNum = lineArrary[lineArray.length-1];
+  let lastNum = lineArray[lineArray.length-1];
   let customerNum = ++lastNum;
   lineArray.push(customerNum);  //adding the num into the line
   
