@@ -1,6 +1,6 @@
 //my code below
 
-var katzDeliLine = [];
+var katzDeliLine = [0];
 
 
 //the question wants me to return the welcome message, and also add the person to the end of the line.
