@@ -19,6 +19,9 @@ function takeANumber(lineArray) {
 takeANumber(katzDeliLine)
 takeANumber(katzDeliLine)
 takeANumber(katzDeliLine)
+nowServing(katzDeliLine)
+nowServing(katzDeliLine)
+nowServing(katzDeliLine)
 
 //if theres no one in the line, retur the message 'There is nobody waiting to be served!'.  IF there are others in ther line, return the message `Currently serving ${firstInLine}.` and remoive them from the front of the line.
 
