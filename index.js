@@ -22,6 +22,7 @@ function nowServing(lineArray){
   if (!lineArray.length){
     return 'There is nobody waiting to be served!';
   }
+  
   let firstInLine = lineArray[0];
   lineArray.shift();
   return `Currently serving ${firstInLine}.`
