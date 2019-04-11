@@ -54,7 +54,7 @@ function currentLine(lineArray){
 
 
 currentLine(["Katie", "Isiah"])
-
+currentLine(["Orville", "Pamela"])
 
 
 
