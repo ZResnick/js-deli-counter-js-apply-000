@@ -9,7 +9,7 @@ function takeANumber(lineArray, nameStr){
   let curName = nameStr // let the name equal to the input
   lineArray.push(curName);  //adding the name into the line
   
-  let currentPosition = lineArray.length + 1;
+  let currentPosition = lineArray.length;
   let welcomeMessage = `Welcome, ${curName}. You are number ${currentPosition} in line.`
   
   
