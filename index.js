@@ -7,7 +7,7 @@ var katzDeliLine = [];
 
 function takeANumber(lineArray) {
   let lastNum = lineArrary[lineArray.length-1];
-  let customerNum = lastNum++;
+  let customerNum = ++lastNum;
   lineArray.push(customerNum);  //adding the num into the line
   
   let welcomeMessage = `Welcome, you are number ${customerNum}.`
