@@ -7,10 +7,12 @@ var katzDeliLine = [];
 
 function takeANumber(lineArray, nameStr){
   let curName = nameStr // let the name equal to the input
-  let currentPosition = lineArray.length + 1
+  lineArray.push(curName);  //adding the name into the line
+  
+  let currentPosition = lineArray.length + 1;
   let welcomeMessage = `Welcome, ${curName}. You are number ${currentPosition} in line.`
   
-  lineArray.push(curName);
+  
   return welcomeMessage;
 }
 
