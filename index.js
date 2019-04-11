@@ -47,11 +47,13 @@ function currentLine(lineArray){
   
   lineString += `${lastPlace}. ${lastInLine}`
   
+  console.log(lineString)
+  
   return lineString;
 }
 
 
-
+currentLine(["Katie", "Isiah"])
 
 
 
